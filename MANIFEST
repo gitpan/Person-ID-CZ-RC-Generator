@@ -9,6 +9,7 @@ inc/Module/Install/Can.pm
 inc/Module/Install/Fetch.pm
 inc/Module/Install/Makefile.pm
 inc/Module/Install/Metadata.pm
+inc/Module/Install/ReadmeFromPod.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
 LICENSE
@@ -21,3 +22,5 @@ t/Person-ID-CZ-RC-Generator/00-use.t
 t/Person-ID-CZ-RC-Generator/01-version.t
 t/Person-ID-CZ-RC-Generator/02-pod_coverage.t
 t/Person-ID-CZ-RC-Generator/03-pod.t
+t/Person-ID-CZ-RC-Generator/04-new.t
+t/Person-ID-CZ-RC-Generator/05-rc.t

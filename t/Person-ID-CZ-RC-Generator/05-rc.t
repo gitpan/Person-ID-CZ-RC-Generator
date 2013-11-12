@@ -8,4 +8,6 @@ use Test::More 'tests' => 2;
 use Test::NoWarnings;
 
 # Test.
-is($Person::ID::CZ::RC::Generator::VERSION, 0.03, 'Version.');
+my $obj = Person::ID::CZ::RC::Generator->new;
+my $ret = $obj->rc;
+like($ret, qr{^\d{9}\d?$}, 'Generate RC number.');
